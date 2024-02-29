@@ -2,6 +2,13 @@
   width: 100%;
   height: 90vh;
   display: flex;
+  @media screen and (max-width: 600px) {
+    background-image: url("../assets/burger-contact.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 }
 
 .contact .leftSide {
@@ -10,6 +17,10 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  @media screen and (max-width: 600px) {
+    flex: 0;
+    height: 760px;
+  }
 }
 
 .contact .rightSide {
@@ -26,6 +37,9 @@
   font-weight: 10;
   font-size: 50px;
   margin-left: 30px;
+  @media screen and (max-width: 600px) {
+    color: white;
+  }
 }
 
 form {
@@ -66,6 +80,9 @@ textarea:focus {
 form label {
   margin-top: 15px;
   color: grey;
+  @media screen and (max-width: 600px) {
+    color: white;
+  }
 }
 
 form button {

@@ -44,7 +44,7 @@
 }
 
 .navbar #open {
-  padding-left: 0px;
+  padding-left: 0;
 }
 .navbar #open img {
   display: none;
@@ -57,6 +57,9 @@
 .navbar #open .hiddenLinks {
   display: inherit;
   margin-left: 30px;
+  @media screen and (max-width: 500px) {
+
+  }
 }
 
 .navbar #close .hiddenLinks {
@@ -64,7 +67,7 @@
 }
 
 .navbar #open a {
-  width: 70px;
+  width: 65px;
   margin: 5px;
 }
 @media only screen and (max-width: 900px) {

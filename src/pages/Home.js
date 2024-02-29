@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import BannerImage from '../assets/burger-bgc.jpg';
+import BannerImage from '../assets/burger-bgc.webp';
 import '../styles/Home.scss';
 
 
